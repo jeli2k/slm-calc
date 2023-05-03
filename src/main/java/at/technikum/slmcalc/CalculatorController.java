@@ -11,4 +11,5 @@ public class CalculatorController {
     public int sum(@RequestParam int a, @RequestParam int b) {  //@RequestParam Parameter wird aus Internet requestet
         return a + b;
     }
+
 }
